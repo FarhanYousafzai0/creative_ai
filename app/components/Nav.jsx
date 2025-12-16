@@ -2,6 +2,7 @@ import React from 'react'
 import { navLinks } from '../lib/Data'
 import { CheckIcon } from "@heroicons/react/20/solid";
 import Button from './Button';
+import Switch from './Switch';
 const Nav = () => {
   return (
     <nav className="
@@ -46,7 +47,7 @@ bg-black
       </div>
 
       {/* Get In Touch Button */}
-     <Button>Get In Touch</Button>
+     <Button>Get In Touch</Button> 
     </div>
   </nav>
   )
