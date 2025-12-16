@@ -27,7 +27,7 @@ bg-black
 
 
       {/* Navigation Links */}
-      <div className="flex items-center gap-12">
+      <div className="md:flex items-center gap-12 hidden ">
       <div className="flex gap-6">
   {navLinks.map((link) => (
     <a
@@ -47,7 +47,8 @@ bg-black
       </div>
 
       {/* Get In Touch Button */}
-     <Button>Get In Touch</Button> 
+   <div className='hidden md:flex'>
+   <Button>Get In Touch</Button></div> 
     </div>
   </nav>
   )
