@@ -3,12 +3,15 @@ import { navLinks } from '../lib/Data'
 import { CheckIcon } from "@heroicons/react/20/solid";
 import Button from './Button';
 import Switch from './Switch';
+import { Button_Neon } from './Button_Neon';
+import { ArrowRight, Fingerprint } from 'lucide-react';
 const Nav = () => {
   return (
     <nav className="
     fixed top-0 w-full z-50
 bg-black
     border-b border-white/5
+    
     shadow-lg shadow-black/30
     py-5 px-8
   ">
@@ -48,7 +51,13 @@ bg-black
 
       {/* Get In Touch Button */}
    <div className='hidden md:flex'>
-   <Button>Get In Touch</Button></div> 
+   </div>
+   <Button_Neon
+      icon={<ArrowRight className="h-5 w-5 text-white cursor-pointer" />}
+      text="Let's Start"
+      className={'cursor-pointer'}
+      
+    /> 
     </div>
   </nav>
   )

@@ -270,10 +270,10 @@ export default memo(function BackgroundPaths({
 
   {/* Buttons */}
   <div className="flex flex-col sm:flex-row gap-4 pt-4">
-    <button className="px-6 py-3 rounded-xl bg-white text-black font-medium hover:bg-gray-200 transition">
+    <button className="px-6 py-3 rounded-xl bg-white cursor-pointer text-black font-medium hover:bg-gray-200 transition">
       Connect With Us
     </button>
-    <button className="px-6 py-3 rounded-xl bg-white/10 text-white border border-white/20 backdrop-blur-md hover:bg-white/20 transition">
+    <button className="px-6 py-3 rounded-xl bg-white/10 cursor-pointer text-white border border-white/20 backdrop-blur-md hover:bg-white/20 transition">
       What is Nubien?
     </button>
   </div>

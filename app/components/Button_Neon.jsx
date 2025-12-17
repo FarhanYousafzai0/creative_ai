@@ -16,7 +16,7 @@ export function Button_Neon({ icon, text, className, onClick }) {
       <span className="pointer-events-none absolute inset-0 rounded-full bg-linear-to-b from-violet-500/80 to-transparent" />
 
       {/* Inner Button */}
-      <span className="relative inline-flex items-center gap-3 rounded-full bg-black/90 px-6 py-3 backdrop-blur-xl">
+      <span className="relative inline-flex items-center gap-3 rounded-full bg-black/90 px-5 py-2 backdrop-blur-xl">
         
         {/* Icon */}
         <span className="flex h-9 w-9 items-center justify-center rounded-full bg-violet-600">
