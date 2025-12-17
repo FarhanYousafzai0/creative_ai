@@ -23,7 +23,7 @@ const About = () => {
   );
 
   return (
-    <section className="max-w-7xl mx-auto relative flex flex-col items-center justify-center py-28 px-8 gap-12">
+    <section id='about' className="max-w-7xl mx-auto relative flex flex-col items-center justify-center py-28 px-8 gap-12">
 
       {/* Top Button */}
       <Button_Neon

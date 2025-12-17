@@ -1,9 +1,9 @@
 import React from 'react'
-import { navLinks } from '../lib/Data'
+import { navLinks } from '../app/lib/Data'
 import { CheckIcon } from "@heroicons/react/20/solid";
-import Button from './Button';
-import Switch from './Switch';
-import { Button_Neon } from './Button_Neon';
+import Button from '../app/components/Button';
+import Switch from '../app/components/Switch';
+import { Button_Neon } from '../app/components/Button_Neon';
 import { ArrowRight, Fingerprint } from 'lucide-react';
 const Nav = () => {
   return (
