@@ -256,7 +256,7 @@ export default memo(function BackgroundPaths({
   </div>
 
   {/* Heading */}
-  <h1 className="font-heading text-white tracking-tight leading-tighter
+  <h1 className="font-heading text-white tracking-tight leading-tight
     text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
     AI-Driven Success <br />
     <span className="text-white/90">Redefining the Future.</span>
